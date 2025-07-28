@@ -2,7 +2,7 @@
 
 This repository contains my complete homelab automation setup using Ansible and GitOps, structured for modular growth.
 
-## 🚀 Overview
+##  Overview
 - **Infrastructure:** Proxmox hypervisor  
 - **Ansible User:** Passwordless sudo  
 - **DNS & DHCP:** Managed by BIND  
@@ -10,7 +10,7 @@ This repository contains my complete homelab automation setup using Ansible and 
 - **GitOps:** Managed with ArgoCD  
 - **IaC:** Managed using Ansible roles  
 
-## 🗂 Repository Structure
+## Repository Structure
 ```
 📂 ansible/         # Ansible playbooks and roles
 📂 openshift/       # OpenShift deployment configurations
@@ -20,7 +20,7 @@ This repository contains my complete homelab automation setup using Ansible and 
 📄 README.md        # Project documentation
 ```
 
-## 🚀 Getting Started
+## Getting Started
 ### Prerequisites
 - Ansible installed
 - SSH access to nodes with the `ansible` user
@@ -30,7 +30,7 @@ This repository contains my complete homelab automation setup using Ansible and 
 ansible-playbook -i ansible/inventory/hosts.yaml ansible/site.yml
 ```
 
-## 🚀 Roadmap
+## Roadmap
 - [x] Set up `homelab` repository with folder structure
 - [x] Create `ansible` directory for server deployments
 - [ ] Deploy BIND DNS/DHCP server using Ansible
@@ -38,9 +38,9 @@ ansible-playbook -i ansible/inventory/hosts.yaml ansible/site.yml
 - [ ] Deploy OpenShift with ArgoCD using GitOps
 - [ ] Document each service with detailed README files
 
-## 🛡️ Security
+## Security
 - Secrets are encrypted using Ansible Vault.  
 - No plaintext credentials are stored.  
 
-### 📜 License
+### License
 This project is licensed under the MIT License.
